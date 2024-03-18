@@ -1,0 +1,64 @@
+ main {
+    padding: 20px;
+    background-size: 100% 100%;
+	background-attachment: fixed;
+  }
+  
+  #consulta {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #consulta h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  #consulta-form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #consulta-form label {
+    margin-right: 10px;
+  }
+  
+  #consulta-form input[type="number"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    flex: 1;
+    max-width: 200px;
+  }
+  
+  #consulta-form button {
+    margin: 5px;
+  }
+  
+  #tabla_estudiantes {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #tabla_estudiantes th, #tabla_estudiantes td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  #tabla_estudiantes th {
+    background-color: #f2f2f2;
+    text-align: center;  
+  }
+  
+  #tabla_estudiantes tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  #tabla_estudiantes tbody tr:hover {
+    background-color: #ddd;
+  }
+  
